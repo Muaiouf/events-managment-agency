@@ -1,205 +1,312 @@
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/all.css">
-        <title> Project_3 </title>
-        <script src="https://cdn.tailwindcss.com"></script>
-    </head>
-    <body class="box-border">
-        <header class="fixed w-full h-[70px] bg-white top-0 z-[99] border-[4px]">
-            <img class="h-[60px] w-[250px] ml-16" src="images/3fa4a1114893e9effb796c30ed55a878.jpg">
-            <ul class="style-none flex text-blue-400 ml-[400px] -mt-[40px] font-extrabold ">
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Home </li></a>
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Services </li></a>
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Our Team </li></a>
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Our Team </li></a>
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Our Work </li></a>
-                <a href="#"><li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Contact Us </li></a>
-            </ul>
-            <a href="#"><button class="bg-blue-700 -mt-[30px] ml-[1100px] w-[140px] h-8 rounded-xl text-white font-bold hover:bg-blue-400 hover:text-blue-950 hover:font-extrabold transition-[.5s]"> Book an Event </button></a>
-        </header>  
-        <main class="w-full h-[630px] bg-blue-950"> 
-            <div id="main-heading" class="w-[500px] h-[300px] ml-[80px] absolute mt-[240px]" >
-                <h2 class="text-3xl font-extrabold text-white"> We Create <span class="text-blue-300"> Unforgettable Events </span> For Your Brand </h2>
-                <p class="my-[10px] text-white opacity-[.8]"> We provide integrated event planning solutions from corporate conferences to grand product launches, ensuring your audience lives an exceptional experience. </p>
-                <i class="fa-solid fa-circle-check text-lg text-green-500"></i> 
-                <span class="text-sm mx-[3px] text-white"> +10 Years Experience </span>
-                <i class="fa-solid fa-circle-check text-lg text-green-500"></i>
-                <span class="text-sm mx-[3px] text-white"> +200 Successful Events </span>
-                <i class="fa-solid fa-circle-check text-lg text-green-500"></i>
-                <span class="text-sm ml-[5px] text-white"> Expert Planning Team </span>
-                <a href="#"><button class="w-[150px] h-[40px] bg-blue-400 font-bold rounded-xl mt-[15px] text-white hover:w-[165px] hover:h-[50px] transition-[.5s] hover:text-xl"> Plan Your Event </button></a>
-                <a href="#"><button class="w-[170px] h-[40px] bg-blue-200 font-bold rounded-xl ml-[10px] hover:w-[200px] hover:h-[50px] transition-[.5s] hover:text-xl"> <i class="fa-regular fa-circle-play"></i> Watch Event Reel </button></a>
-            </div>          <!-- /main-heading -->
-            <img src="images/5e01642cc4155336f3da0b6a71ed501c.jpg" class="w-[550px] h-[270px] ml-[650px] mt-[230px] absolute rounded-xl">
-            <div id="main-attends" class="bg-blue-200 w-[140px] h-[70px] rounded-3xl mt-[455px] ml-[620px] absolute p-[10px]">
-                <i class="fa-solid fa-users-line text-2xl bg-green-500 size-[35px] text-center rounded-full text-white "></i>
-                <p class="text-[11px] ml-[50px] -mt-[40px] font-md"> Happy Attendees </p>
-                <p class="font-extrabold text-[20px] ml-[40px]"> +10K </p>
-            </div>      <!-- /main-attends -->
-        </main>    
-        <section id="table" class="h-[500px]">
-            <h2 class="text-center text-3xl font-extrabold mt-[100px] text-blue-950"> What We Bring To The Table </h2>
-            <p class="text-center mt-[10px] text-blue-950 opacity-[.6] font-bold"> Discover our full spectrum of digital services designed to accelerate your growth and maximize your market impact. </p>
-            <div class="w-[140px] h-[4px] bg-blue-950 m-auto mt-[10px]"></div>
-            <div id="table-parent" class="flex w-[85%] m-auto mt-[50px] ">
-                <div class="group w-[650px] h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl border-[5px] hover:border-blue-950 transition-[.5s] hover:w-[660px] hover:h-[280px]">
-                    <i id="icon" class="fa-solid fa-handshake-simple text-[30px] size-[45px] bg-white rounded-xl text-center pt-[5px] text-blue-700 group-hover:text-white group-hover:bg-blue-950"></i>
-                    <h2 class="font-bold text-[20px] mt-[5px] text-blue-950"> Corporate Events & Conferences </h2>
-                    <p class="text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7]"> We plan professional corporate gatherings, annual meetings, and industry conferences with high precision. </p>
-                    <div class="mt-[10px] py-[5px]">    
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] ml-[5px] text-blue-950 font-bold opacity-[.8]"> ​Venue Selection </span>
-                    </div>    
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Stage & Audio Setup </span>
-                    </div>
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] ml-[5px] text-blue-950 font-bold opacity-[.8]"> ​Professional Branding </span>
-                    </div>    
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/all.css">
+    <title> Project_3 </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="box-border">
+    <header class="fixed w-full lg:h-[70px] bg-white top-0 z-[99] lg:border-[4px] sm:h-[170px] sm:border-[10px]">
+        <img class="lg:h-[60px] lg:w-[250px] lg:ml-16 sm:ml-0 sm:w-[380px] sm:h-full"
+            src="images/3fa4a1114893e9effb796c30ed55a878.jpg">
+        <ul
+            class="style-none flex lg:text-lg text-blue-400 lg:ml-[400px] lg:-mt-[40px] font-extrabold sm:ml-[320px] sm:text-2xl sm:-mt-[110px]">
+            <a href="#">
+                <li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Home </li>
+            </a>
+            <a href="#">
+                <li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Services </li>
+            </a>
+            <a href="#">
+                <li class="mx-[10px] hover:cursor-pointer hover:text-blue-900"> Our Team </li>
+            </a>
+            <a href="#">
+                <li class="lg:mx-[10px] lg:mt-0 hover:cursor-pointer hover:text-blue-900 sm:mt-[50px] sm:-ml-[290px]"> Our Work </li>
+            </a>
+            <a href="#">
+                <li class="lg:mx-[10px] lg:mt-0 hover:cursor-pointer hover:text-blue-900 sm:mt-[50px] sm:-ml-[150px]"> Contact Us </li>
+            </a>
+        </ul>
+        <a href="#"><button
+                class="lg:text-[16px] bg-blue-700 lg:-mt-[30px] lg:ml-[1100px] lg:w-[140px] lg:h-8 rounded-xl text-white font-bold hover:bg-blue-400 hover:text-blue-950 hover:font-extrabold transition-[.5s] sm:ml-[700px] sm:w-[250px] sm:h-16 sm:-mt-[70px] sm:text-3xl">
+                Book an Event </button></a>
+    </header>
+    <main class="w-full lg:h-[630px] bg-blue-950 sm:h-full">
+        <div id="main-heading"
+            class="lg:w-[500px] h-[300px] lg:text-left lg:ml-[80px] absolute lg:mt-[240px] sm:ml-[130px] sm:mt-[1100px] sm:text-center sm:w-[700px]">
+            <h2 class="lg:text-3xl font-extrabold text-white sm:text-7xl"> We Create <span class="text-blue-300">
+                    Unforgettable Events </span> For Your Brand </h2>
+            <p class="lg:text-lg lg:my-[10px] text-white opacity-[.8] sm:text-[28px] sm:my-[20px]"> We provide integrated event planning
+                solutions
+                from corporate conferences to grand product launches, ensuring your audience lives an exceptional
+                experience. </p>
+            <i class="fa-solid fa-circle-check lg:text-lg text-green-500 sm:text-2xl"></i>
+            <span class="lg:text-sm mx-[3px] text-white sm:text-lg"> +10 Years Experience </span>
+            <i class="fa-solid fa-circle-check lg:text-lg text-green-500 sm:text-2xl"></i>
+            <span class="lg:text-sm mx-[3px] text-white sm:text-lg"> +200 Successful Events </span>
+            <i class="fa-solid fa-circle-check lg:text-lg text-green-500 sm:text-2xl"></i>
+            <span class="lg:text-sm ml-[5px] text-white sm:text-lg"> Expert Planning Team </span>
+            <a href="#"><button
+                    class="lg:text-[17px] lg:w-[150px] lg:h-[40px] bg-blue-400 lg:font-bold lg:rounded-xl lg:mt-[15px] text-white lg:hover:w-[165px] lg:hover:h-[50px] transition-[.5s] lg:hover:text-xl sm:mt-[40px] sm:hover:w-[350px] sm:hover:h-[100px] sm:hover:text-4xl sm:w-[300px] sm:h-[90px] sm:font-extrabold sm:rounded-3xl sm:text-3xl">
+                    Plan Your Event </button></a>
+            <a href="#"><button
+                    class="lg:text-[17px] lg:w-[170px] lg:h-[40px] bg-blue-200 lg:font-bold lg:rounded-xl ml-[10px] lg:hover:w-[200px] lg:hover:h-[50px] transition-[.5s] lg:hover:text-xl sm:w-[300px] sm:h-[90px] sm:font-extrabold sm:rounded-3xl sm:text-3xl sm:hover:w-[350px] sm:hover:h-[100px] sm:hover:text-4xl">
+                    <i class="fa-regular fa-circle-play"></i> Watch Event Reel </button></a>
+        </div> <!-- /main-heading -->
+        <img src="images/5e01642cc4155336f3da0b6a71ed501c.jpg"
+            class="lg:w-[550px] lg:h-[270px] lg:ml-[650px] lg:mt-[230px] absolute rounded-xl sm:ml-[35px] sm:mt-[200px] sm:w-[900px] sm:h-[800px]">
+        <div id="main-attends"
+            class="bg-blue-200 lg:w-[140px] lg:h-[70px] rounded-3xl lg:mt-[455px] lg:ml-[620px] absolute p-[10px] sm:ml-[680px] sm:w-[300px] sm:mt-[930px] sm:h-[150px]">
+            <i
+                class="fa-solid fa-users-line lg:text-2xl bg-green-500 lg:size-[35px] text-center lg:py-0 rounded-full text-white sm:text-5xl sm:size-[100px] sm:py-[30px]"></i>
+            <p class="lg:text-[11px] lg:ml-[50px] font-extrabold lg:-mt-[40px] sm:text-[20px] sm:ml-[110px] sm:-mt-[80px]"> Happy Attendees </p>
+            <p class="font-extrabold lg:text-[20px] lg:ml-[40px] sm:text-[40px] sm:ml-[130px]"> +10K </p>
+        </div> <!-- /main-attends -->
+    </main>
+    <section id="table" class="lg:h-[500px] sm:h-full">
+        <h2 class="text-center lg:text-3xl font-extrabold mt-[100px] text-blue-950 sm:text-6xl"> What We Bring To The Table </h2>
+        <p class="lg:text-lg text-center mt-[10px] text-blue-950 opacity-[.6] font-bold sm:text-3xl"> Discover our
+            full spectrum
+            of digital services designed to accelerate your growth and maximize your market impact. </p>
+        <div class="w-[140px] h-[4px] bg-blue-950 m-auto mt-[10px]"></div>
+        <div id="table-parent" class="flex lg:flex-row w-[85%] m-auto lg:mt-[50px] sm:mt-[20px] sm:flex-col">
+            <div
+                class="lg:my-0 group lg:w-[650px] lg:h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl lg:border-[5px] hover:border-blue-950 transition-[.5s] lg:hover:w-[660px] lg:hover:h-[280px] sm:h-[550px] sm:w-[800px] sm:border-[20px] sm:my-[20px]">
+                <i id="icon"
+                    class="fa-solid fa-handshake-simple lg:text-[30px] lg:size-[45px] bg-white lg:rounded-xl text-center lg:pt-[5px] text-blue-700 group-hover:text-white group-hover:bg-blue-950 sm:text-[100px] sm:size-[150px] sm:rounded-3xl sm:pt-[25px]"></i>
+                <h2
+                    class="lg:ml-0 lg:font-bold lg:text-[20px] lg:mt-[5px] text-blue-950 sm:ml-[200px] sm:text-[50px] sm:-mt-[140px] sm:font-extrabold">
+                    Corporate Events & Conferences </h2>
+                <p class="lg:text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7] sm:text-[25px]"> We plan
+                    professional corporate gatherings, annual meetings, and industry conferences with high precision.
+                </p>
+                <div class="mt-[10px] py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] ml-[5px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> ​Venue
+                        Selection </span>
                 </div>
-                <div class="group w-[650px] h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl border-[5px] hover:border-blue-950 transition-[.5s] hover:w-[660px] hover:h-[280px]">
-                    <i class="fa-solid fa-star text-[30px] size-[45px] bg-white rounded-xl text-center pt-[5px] text-blue-700 group-hover:text-yellow-300 group-hover:bg-blue-950"></i>
-                    <h2 class="font-bold text-[20px] mt-[5px] text-blue-950"> Brand Activation & Exhibitions </h2>
-                    <p class="text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7]"> We design immersive brand experiences booths that capture attention and engage your audience. </p>
-                    <div class="mt-[10px]  py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Custom Booth Design </span>
-                    </div>
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Interactive Displays </span>
-                    </div>
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Live Engagement </span>
-                    </div>    
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Stage & Audio
+                        Setup
+                    </span>
                 </div>
-                <div class="group w-[650px] h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl border-[5px] hover:border-blue-950 transition-[.5s] hover:w-[660px] hover:h-[280px]">
-                    <i class="fa-solid fa-champagne-glasses text-[30px] size-[45px] bg-white rounded-xl text-center pt-[5px] text-blue-700 group-hover:text-red-300 group-hover:bg-blue-950"></i>
-                    <h2 class="font-bold text-[20px] mt-[5px] text-blue-950"> Gala Dinners & Private Parties </h2>
-                    <p class="text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7]"> We organize luxurious gala dinners, celebrations, and exclusive private events tailored to your precise vision. </p>
-                    <div class="mt-[10px]  py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Theme Conceptualization </span>
-                    </div>
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Catering Coordination </span>
-                    </div>    
-                    <div class=" py-[5px]">
-                        <i class="fa-solid fa-check text-green-500"></i>
-                        <span class="text-[15px] text-blue-950 font-bold opacity-[.8]"> Entertainment Management </span>
-                    </div>    
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] ml-[5px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]">
+                        ​Professional Branding </span>
                 </div>
-            </div>          <!-- /table-parent -->    
-        </section>          <!-- /table -->
-        <section id="events" class="w-full h-[130px] bg-gradient-to-r from-blue-900 via-blue-700 to-blue-950 flex text-center justify-evenly items-center text-white">
-            <div>
-                <h2 class="font-extrabold text-[30px]"> +150 </h2>
-                <p class="opacity-[.7] text-[15px]"> Successful Events </p>
-            </div>            
-            <div>
-                <h2 class="font-extrabold text-[30px]"> +5000 </h2>
-                <p class="opacity-[.7] text-[15px]"> Happy Attendees </p>
-            </div>            
-            <div>
-                <h2 class="font-extrabold text-[30px]"> +40 </h2>
-                <p class="opacity-[.7] text-[15px]"> Corporate Partners </p>
-            </div>            
-            <div>
-                <h2 class="font-extrabold text-[30px]"> +8 </h2>
-                <p class="opacity-[.7] text-[15px]"> Years of Experience </p>
-            </div>            
-        </section>      <!-- /events -->
-        <section id="experts" class="mt-[150px]">
-            <h2 class="text-center font-extrabold text-[30px] text-blue-950"> Meet Our Event Experts </h2>
-            <p class="text-center opacity-[.6] text-blue-950 font-bold"> The creative minds behind your unforgettable experiences and successful events. </p>
-            <div id="experts-parent" class="mt-[50px] flex w-[85%] m-auto ">
-                <div id="experts-content" class="group hover:border-blue-950 transition-[.5s] text-center border-[5px] w-[700px] h-[330px] rounded-3xl mx-[10px]">
-                    <img src="images/d1aa1a04389141af29da4922948e308c.jpg" class="group-hover:blur-[5px] w-[400px] h-[200px] rounded-t-2xl">
-                    <div class="absolute -mt-[120px] ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s]">
-                        <a href="#"><i class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                    </div>
-                    <h2 class="font-bold text-xl mt-[10px] text-blue-950"> Ahmed Mohamed </h2>
-                    <p class="font-extrabold text-[12px] text-blue-700"> Head of Event Operations </p>
-                    <p class="font-bold text-[12px] opacity-[.7] mt-[10px] text-blue-950"> 10 years of experience in large-scale event management and logistics. </p>
-                </div>      <!-- /expert-content -->
-                <div id="experts-content" class="group hover:border-blue-950 transition-[.5s] text-center border-[5px] w-[700px] h-[330px] rounded-3xl mx-[10px]">
-                    <img src="images/aaf28d6489eb0e225330550dc35124aa.jpg" class="group-hover:blur-[5px] w-[400px] h-[200px] rounded-t-2xl">
-                    <div class="absolute -mt-[120px] ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s]">
-                        <a href="#"><i class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                    </div>
-                    <h2 class="font-bold text-xl mt-[10px] text-blue-950"> Sara Ahmed </h2>
-                    <p class="font-extrabold text-[12px] text-blue-700"> Creative & Stage Director </p>
-                    <p class="font-bold text-[12px] opacity-[.7] mt-[10px] text-blue-950"> Specialized in stage design and immersive brand experiences. </p>
-                </div>      <!-- /expert-content -->
-                <div id="experts-content" class="group hover:border-blue-950 transition-[.5s] text-center border-[5px] w-[700px] h-[330px] rounded-3xl mx-[10px]">
-                    <img src="images/6fe2aa853ec78e80c1e977ac21423187.jpg" class="group-hover:blur-[5px] w-[400px] h-[200px] rounded-t-2xl">
-                    <div class="absolute -mt-[120px] ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s]">
-                        <a href="#"><i class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                    </div>
-                    <h2 class="font-bold text-xl mt-[10px] text-blue-950"> Mohamed Ali </h2>
-                    <p class="font-extrabold text-[12px] text-blue-700"> Logistics & Venue Coordinator </p>
-                    <p class="font-bold text-[12px] opacity-[.7] mt-[10px] text-blue-950"> Expert in vendor coordination and on-site execution. </p>
-                </div>      <!-- /expert-content -->
-                <div id="experts-content" class="group hover:border-blue-950 transition-[.5s] text-center border-[5px] w-[700px] h-[330px] rounded-3xl mx-[10px]">
-                    <img src="images/fe1459cd4e67b895d91173595be8d507.jpg" class="group-hover:blur-[5px] w-[400px] h-[200px] rounded-t-2xl">
-                    <div class="absolute -mt-[120px] ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s]">
-                        <a href="#"><i class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 size-[30px] bg-blue-700 text-white text-lg rounded-full cursor-pointer"></i></a>
-                    </div>
-                    <h2 class="font-bold text-xl mt-[10px] text-blue-950"> Noura Khaled </h2>
-                    <p class="font-extrabold text-[12px] text-blue-700"> Guest Relations Manager </p>
-                    <p class="font-bold text-[12px] opacity-[.7] mt-[10px] text-blue-950"> Specialized in VIP hospitality and attendee experience. </p>
-                </div>      <!-- /expert-content -->
-            </div>      <!-- /experts-parent -->
-        </section>      <!-- /experts -->
-        <footer class="w-full h-[550px] bg-blue-950 mt-[100px]">
-            <div id="footer-parent" class="w-[85%] flex m-auto h-[500px]">
-                <div id="footer-get" class="w-[50%] bg-blue-900 mx-[15px] my-[60px] rounded-3xl p-[20px]">
-                    <h2 class="font-bold text-xl text-white"> Get in Touch With Us </h2>
-                    <input type="text" placeholder="Name" class="w-[500px] h-[50px] p-[10px] mt-[10px] font-bold rounded-2xl bg-blue-100 text-blue-900 focus:outline-blue-950">
-                    <input type="email" placeholder="Email Address" class="w-[500px] h-[50px] p-[10px] mt-[10px] rounded-2xl font-bold bg-blue-100 text-blue-900 focus:outline-blue-950">
-                    <textarea placeholder="Tell us about your upcoming event..." class="w-[500px] h-[110px] py-[15px] px-[10px] mt-[10px] rounded-2xl font-bold bg-blue-100 text-blue-900 focus:outline-blue-950"></textarea>
-                    <a href="#"><button class="bg-blue-700 text-white w-[500px] h-[50px] p-[10px] mt-[20px] rounded-2xl font-bold"> Book Your Event </button></a>
-                </div>      <!-- /footer-get -->
-                <div id="footer-contact" class="w-[50%] mx-[15px] my-[55px]">
-                    <h2 class="font-bold text-xl text-white"> Contact Information </h2>
-                    <i class="fa-solid fa-location-dot bg-blue-700 text-white size-[35px] rounded-lg text-center py-[9px] mt-[20px]"></i>
-                    <p class="text-white opacity-[.6] text-[12px] font-bold ml-[45px] -mt-[35px]"> Address </p>
-                    <p class="text-white font-bold text-[15px] ml-[43px] -mt-[4px]"> Cairo, Egypt </p>
-                    <i class="fa-solid fa-phone size-[35px] rounded-lg text-center py-[9px] mt-[10px] bg-blue-700 text-white"></i>
-                    <p class="text-white opacity-[.6] text-[12px] font-bold ml-[45px] -mt-[35px]"> Phone </p>
-                    <p class="text-white font-bold text-[15px] ml-[43px] -mt-[4px]"> +20 123 456 7890 </p>
-                    <i class="fa-solid fa-envelope size-[35px] rounded-lg text-center py-[9px] mt-[10px] bg-blue-700 text-white"></i>
-                    <p class="text-white opacity-[.6] text-[12px] font-bold ml-[45px] -mt-[35px]"> Email </p>
-                    <p class="text-white font-bold text-[15px] ml-[43px] -mt-[4px]"> info@eventsagency.com </p>
-                    <div id="footer-contact-map" class="w-full h-[150px] mt-[20px] rounded-3xl bg-gradient-to-br from-blue-300 via-blue-700 to-blue-100">
-                        <a href="#"><div class="text-white w-[100px] h-[40px] my-[55px] mx-[220px] absolute">
-                            <i class="fa-solid fa-map text-3xl"></i>
-                            <p class="font-bold text-sm ml-[40px] -mt-[28px]"> Site Map </p>
-                        </div></a>
-                    </div>      <!-- /footer-contact-map -->
-                </div>      <!-- /footer-contact -->
-            </div>      <!-- /footer-parent -->
-            <hr class="-mt-[20px]">
-            <p class="font-bold text-[13px] ml-[110px] mt-[25px] text-blue-400"> &copy; 2026 Event Agency. All rights reserved. </p>
-            <div id="footer-icons" class="ml-[1130px] -mt-[20px]">
-                <a href="#"><i class="fa-brands fa-facebook-f mx-[5px] text-blue-800 hover:text-blue-300"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter mx-[5px] text-blue-800 hover:text-blue-300"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in mx-[5px] text-blue-800 hover:text-blue-300"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram mx-[5px] text-blue-800 hover:text-blue-300"></i></a>
-            </div>      <!-- /footer-icons -->
-        </footer>
-    </body>
+            </div>
+            <div
+                class="lg:my-0 group lg:w-[650px] lg:h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl lg:border-[5px] hover:border-blue-950 transition-[.5s] lg:hover:w-[660px] lg:hover:h-[280px] sm:h-[550px] sm:w-[800px] sm:border-[20px] sm:my-[20px]">
+                <i
+                    class="fa-solid fa-star lg:text-[30px] lg:size-[45px] bg-white lg:rounded-xl text-center lg:pt-[5px] text-blue-700 group-hover:text-yellow-300 group-hover:bg-blue-950 sm:text-[100px] sm:size-[150px] sm:rounded-3xl sm:pt-[25px]"></i>
+                <h2
+                    class="lg:ml-0 lg:font-bold lg:text-[20px] lg:mt-[5px] text-blue-950 sm:ml-[200px] sm:text-[50px] sm:-mt-[140px] sm:font-extrabold">
+                    Brand Activation & Exhibitions </h2>
+                <p class="lg:text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7] sm:text-[25px]"> We design
+                    immersive
+                    brand experiences booths that capture attention and engage your audience. </p>
+                <div class="mt-[10px]  py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Custom Booth
+                        Design
+                    </span>
+                </div>
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Interactive
+                        Displays
+                    </span>
+                </div>
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Live Engagement
+                    </span>
+                </div>
+            </div>
+            <div
+                class="lg:my-0 group lg:w-[650px] lg:h-[270px] bg-blue-100 mx-[10px] p-[15px] rounded-3xl lg:border-[5px] hover:border-blue-950 transition-[.5s] lg:hover:w-[660px] lg:hover:h-[280px] sm:my-[20px] sm:h-[550px] sm:w-[800px] sm:border-[20px]">
+                <i
+                    class="fa-solid fa-champagne-glasses lg:text-[30px] lg:size-[45px] bg-white lg:rounded-xl text-center lg:pt-[5px] text-blue-700 group-hover:text-red-300 group-hover:bg-blue-950 sm:text-[100px] sm:size-[150px] sm:rounded-3xl sm:pt-[25px]"></i>
+                <h2
+                    class="lg:ml-0 lg:font-bold lg:text-[20px] lg:mt-[5px] text-blue-950 sm:ml-[200px] sm:text-[50px] sm:-mt-[140px] sm:font-extrabold">
+                    Gala
+                    Dinners & Private Parties </h2>
+                <p class="lg:text-[12px] mt-[5px] text-blue-950 font-bold opacity-[.7] sm:text-[25px]"> We organize
+                    luxurious gala dinners, celebrations, and exclusive private events tailored to your precise vision.
+                </p>
+                <div class="mt-[10px]  py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Theme
+                        Conceptualization </span>
+                </div>
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Catering
+                        Coordination
+                    </span>
+                </div>
+                <div class=" py-[5px]">
+                    <i class="fa-solid fa-check text-green-500 lg:text-[18px] sm:text-[40px]"></i>
+                    <span class="lg:text-[15px] text-blue-950 font-bold opacity-[.8] sm:text-[40px]"> Entertainment
+                        Management </span>
+                </div>
+            </div>
+        </div> <!-- /table-parent -->
+    </section> <!-- /table -->
+    <section id="events"
+        class="lg:mt-0 w-full lg:h-[130px] bg-gradient-to-r from-blue-900 via-blue-700 to-blue-950 flex text-center justify-evenly items-center text-white sm:mt-[300px] sm:h-[400px]">
+        <div>
+            <h2 class="font-extrabold lg:text-[30px] sm:text-[80px]"> +150 </h2>
+            <p class="opacity-[.7] lg:text-[15px] sm:text-[25px]"> Successful Events </p>
+        </div>
+        <div>
+            <h2 class="font-extrabold lg:text-[30px] sm:text-[80px]"> +5000 </h2>
+            <p class="opacity-[.7] lg:text-[15px] sm:text-[25px]"> Happy Attendees </p>
+        </div>
+        <div>
+            <h2 class="font-extrabold lg:text-[30px] sm:text-[80px]"> +40 </h2>
+            <p class="opacity-[.7] lg:text-[15px] sm:text-[25px]"> Corporate Partners </p>
+        </div>
+        <div>
+            <h2 class="font-extrabold lg:text-[30px] sm:text-[80px]"> +8 </h2>
+            <p class="opacity-[.7] lg:text-[15px] sm:text-[25px]"> Years of Experience </p>
+        </div>
+    </section> <!-- /events -->
+    <section id="experts" class="mt-[150px] lg:h-[500px] sm:h-full">
+        <h2 class="text-center font-extrabold lg:text-[30px] text-blue-950 sm:text-6xl"> Meet Our Event Experts </h2>
+        <p class="lg:text-lg text-center opacity-[.6] text-blue-950 font-bold sm:text-3xl"> The creative minds behind
+            your
+            unforgettable experiences and successful events. </p>
+        <div id="experts-parent" class="mt-[50px] flex lg:flex-row w-[85%] m-auto sm:flex-col">
+            <div id="experts-content"
+                class="lg:my-0 group hover:border-blue-950 transition-[.5s] text-center lg:border-[5px] lg:w-[700px] lg:h-[330px] rounded-3xl mx-[10px] sm:border-[20px] sm:h-[850px] sm:my-[20px]">
+                <img src="images/d1aa1a04389141af29da4922948e308c.jpg"
+                    class="group-hover:blur-[5px] lg:w-[400px] lg:h-[200px] rounded-t-2xl sm:h-[65%] sm:w-full">
+                <div
+                    class="absolute lg:-mt-[120px] lg:ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s] sm:-mt-[300px] sm:ml-[130px]">
+                    <a href="#"><i
+                            class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 lg:py-0 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:py-0 lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:py-0 lg:text-lg lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                </div>
+                <h2 class="lg:font-bold lg:text-xl mt-[10px] text-blue-950 sm:font-extrabold sm:text-6xl"> Ahmed Mohamed </h2>
+                <p class="font-extrabold lg:text-[12px] text-blue-700 sm:text-[35px]"> Head of Event Operations </p>
+                <p class="font-bold lg:text-[12px] opacity-[.7] mt-[10px] text-blue-950 sm:text-[35px]"> 10 years of experience in
+                    large-scale event management and logistics. </p>
+            </div> <!-- /expert-content -->
+            <div id="experts-content"
+                class="lg:my-0 group hover:border-blue-950 transition-[.5s] text-center lg:border-[5px] lg:w-[700px] lg:h-[330px] rounded-3xl mx-[10px] sm:border-[20px] sm:h-[850px] sm:my-[20px]">
+                <img src="images/aaf28d6489eb0e225330550dc35124aa.jpg"
+                    class="group-hover:blur-[5px] lg:w-[400px] lg:h-[200px] rounded-t-2xl sm:h-[65%] sm:w-full">
+                <div
+                    class="absolute lg:-mt-[120px] lg:ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s] sm:-mt-[300px] sm:ml-[130px]">
+                    <a href="#"><i
+                            class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:py-0 lg:text-lg lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:py-0 lg:text-lg lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:py-0 lg:text-lg lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                </div>
+                <h2 class="lg:font-bold lg:text-xl mt-[10px] text-blue-950 sm:font-extrabold sm:text-6xl"> Sara Ahmed </h2>
+                <p class="font-extrabold lg:text-[12px] text-blue-700 sm:text-[35px]"> Creative & Stage Director </p>
+                <p class="font-bold lg:text-[12px] opacity-[.7] mt-[10px] text-blue-950 sm:text-[35px]"> Specialized in stage design and
+                    immersive brand experiences. </p>
+            </div> <!-- /expert-content -->
+            <div id="experts-content"
+                class="lg:my-0 group hover:border-blue-950 transition-[.5s] text-center lg:border-[5px] lg:w-[700px] lg:h-[330px] rounded-3xl mx-[10px] sm:border-[20px] sm:h-[850px] sm:my-[20px]">
+                <img src="images/6fe2aa853ec78e80c1e977ac21423187.jpg"
+                    class="group-hover:blur-[5px] lg:w-[400px] lg:h-[200px] rounded-t-2xl sm:h-[65%] sm:w-full">
+                <div
+                    class="absolute lg:-mt-[120px] lg:ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s] sm:-mt-[300px] sm:ml-[130px]">
+                    <a href="#"><i
+                            class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:py-0 lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:py-0 lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:py-0 lg:mx-0 rounded-full cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                </div>
+                <h2 class="lg:font-bold lg:text-xl mt-[10px] text-blue-950 sm:font-extrabold sm:text-6xl"> Mohamed Ali </h2>
+                <p class="font-extrabold lg:text-[12px] text-blue-700 sm:text-[35px]"> Logistics & Venue Coordinator </p>
+                <p class="font-bold lg:text-[12px] opacity-[.7] mt-[10px] text-blue-950 sm:text-[35px]"> Expert in vendor coordination and
+                    on-site execution. </p>
+            </div> <!-- /expert-content -->
+            <div id="experts-content"
+                class="lg:my-0 group hover:border-blue-950 transition-[.5s] text-center lg:border-[5px] lg:w-[700px] lg:h-[330px] rounded-3xl mx-[10px] sm:border-[20px] sm:h-[850px] sm:my-[20px]">
+                <img src="images/fe1459cd4e67b895d91173595be8d507.jpg"
+                    class="group-hover:blur-[5px] lg:w-[400px] lg:h-[200px] rounded-t-2xl sm:h-[65%] sm:w-full">
+                <div
+                    class="absolute lg:-mt-[120px] lg:ml-[85px] opacity-0 group-hover:opacity-[1] transition-[.5s] sm:-mt-[300px] sm:ml-[130px]">
+                    <a href="#"><i
+                            class="fa-brands fa-facebook-f hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg lg:py-0 rounded-full lg:mx-0 cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-instagram hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg rounded-full lg:py-0 lg:mx-0 cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                    <a href="#"><i
+                            class="fa-brands fa-linkedin-in hover:bg-black hover:text-purple-500 lg:size-[30px] bg-blue-700 text-white lg:text-lg rounded-full lg:py-0 lg:mx-0 cursor-pointer sm:size-[160px] sm:text-9xl sm:py-[10px] sm:mx-[10px]"></i></a>
+                </div>
+                <h2 class="lg:font-bold lg:text-xl mt-[10px] text-blue-950 sm:font-extrabold sm:text-6xl"> Noura Khaled </h2>
+                <p class="font-extrabold lg:text-[12px] text-blue-700 sm:text-[35px]"> Guest Relations Manager </p>
+                <p class="font-bold lg:text-[12px] opacity-[.7] mt-[10px] text-blue-950 sm:text-[35px]"> Specialized in VIP hospitality
+                    and attendee experience. </p>
+            </div> <!-- /expert-content -->
+        </div> <!-- /experts-parent -->
+    </section> <!-- /experts -->
+    <footer class="w-full lg:h-[550px] bg-blue-950 lg:mt-[100px] sm:mt-[2500px] sm:h-[1650px]">
+        <div id="footer-parent" class="w-[85%] flex lg:flex-row m-auto sm:flex-col">
+            <div id="footer-get"
+                class="lg:w-[50%] lg:h-[400px] bg-blue-900 mx-[15px] lg:my-[60px] rounded-3xl p-[20px] sm:mt-[25px] sm:w-[95%] sm:h-[950px]">
+                <h2 class="lg:font-bold lg:text-xl text-white sm:font-extrabold sm:text-7xl"> Get in Touch With Us </h2>
+                <input type="text" placeholder="Name"
+                    class="lg:text-lg lg:w-[500px] lg:h-[50px] p-[10px] lg:mt-[10px] lg:font-bold rounded-2xl bg-blue-100 text-blue-900 focus:outline-blue-950 sm:w-[600px] sm:h-[100px] sm:mt-[60px] sm:font-extrabold sm:text-5xl">
+                <input type="email" placeholder="Email Address"
+                    class="lg:text-lg lg:w-[500px] lg:h-[50px] p-[10px] lg:mt-[10px] rounded-2xl lg:font-bold bg-blue-100 text-blue-900 focus:outline-blue-950 sm:w-[600px] sm:h-[100px] sm:mt-[60px] sm:font-extrabold sm:text-5xl">
+                <textarea placeholder="Tell us about your upcoming event..."
+                    class="lg:text-lg lg:w-[500px] lg:h-[110px] py-[15px] px-[10px] lg:mt-[10px] rounded-2xl lg:font-bold bg-blue-100 text-blue-900 focus:outline-blue-950 sm:w-[600px] sm:h-[300px] sm:mt-[60px] sm:font-extrabold sm:text-5xl"></textarea>
+                <a href="#"><button
+                        class="lg:text-lg lg:ml-0 bg-blue-700 text-white lg:w-[500px] lg:h-[50px] p-[10px] lg:mt-[15px] rounded-2xl lg:font-bold sm:w-[650px] sm:h-[100px] sm:mt-[50px] sm:font-extrabold sm:text-5xl sm:ml-[50px]">
+                        Book Your Event </button></a>
+            </div> <!-- /footer-get -->
+            <div id="footer-contact" class="lg:w-[50%] mx-[15px] my-[55px] sm:w-[95%]">
+                <h2 class="lg:font-bold lg:text-xl text-white sm:font-extrabold sm:text-7xl"> Contact Information </h2>
+                <i
+                    class="fa-solid fa-location-dot bg-blue-700 text-white lg:text-[20px] lg:size-[35px] lg:rounded-lg text-center py-[9px] mt-[20px] sm:size-[90px] sm:rounded-2xl sm:text-7xl"></i>
+                <p class="text-white opacity-[.6] lg:text-[12px] font-bold lg:ml-[45px] lg:-mt-[35px] sm:ml-[110px] sm:-mt-[85px] sm:text-[30px]"> Address </p>
+                <p class="text-white lg:font-bold lg:text-[15px] lg:ml-[43px] -mt-[4px] sm:font-extrabold sm:text-[30px] sm:ml-[110px]"> Cairo, Egypt </p>
+                <i
+                    class="fa-solid fa-phone lg:size-[35px] lg:rounded-lg lg:text-[20px] text-center py-[9px] lg:mt-[10px] bg-blue-700 text-white sm:size-[90px] sm:rounded-2xl sm:text-7xl sm:my-[50px]"></i>
+                <p class="text-white opacity-[.6] lg:text-[12px] font-bold lg:ml-[45px] lg:-mt-[85px] sm:ml-[110px] sm:-mt-[130px] sm:text-[30px]"> Phone </p>
+                <p class="text-white lg:font-bold lg:text-[15px] lg:ml-[43px] -mt-[4px] sm:font-extrabold sm:text-[30px] sm:ml-[110px]"> +20 123 456 7890 </p>
+                <i
+                    class="fa-solid fa-envelope lg:size-[35px] lg:rounded-lg lg:text-[20px] text-center py-[9px] lg:mt-[10px] bg-blue-700 text-white sm:size-[90px] sm:rounded-2xl sm:text-7xl sm:my-[50px]"></i>
+                <p class="text-white opacity-[.6] lg:text-[12px] font-bold lg:ml-[45px] lg:-mt-[85px] sm:ml-[110px] sm:-mt-[130px] sm:text-[30px]"> Email </p>
+                <p class="text-white lg:font-bold lg:text-[15px] lg:ml-[43px] -mt-[4px] sm:font-extrabold sm:text-[30px] sm:ml-[110px]"> info@eventsagency.com </p>
+                <div id="footer-contact-map"
+                    class="lg:w-full lg:h-[150px] lg:ml-0 lg:mt-[20px] rounded-3xl bg-gradient-to-br from-blue-300 via-blue-700 to-blue-100 sm:w-[300px] sm:h-[400px] sm:ml-[500px] sm:-mt-[390px]">
+                    <a href="#">
+                        <div class="text-white lg:w-[100px] h-[40px] lg:my-[55px] lg:mx-[220px] absolute sm:mx-[70px] sm:w-[200px] sm:my-[170px]">
+                            <i class="fa-solid fa-map lg:text-3xl sm:text-4xl"></i>
+                            <p class="lg:font-bold lg:text-sm lg:ml-[40px] lg:-mt-[28px] sm:font-extrabold sm:text-3xl sm:ml-[50px] sm:-mt-[35px]"> Site Map </p>
+                        </div>
+                    </a>
+                </div> <!-- /footer-contact-map -->
+            </div> <!-- /footer-contact -->
+        </div> <!-- /footer-parent -->
+        <hr class="lg:-mt-[20px] sm:-mt-[30px]">
+        <p class="font-bold lg:text-[13px] lg:ml-[110px] mt-[25px] text-blue-400 sm:text-[20px] sm:ml-[90px]"> &copy;
+            2026
+            Event Agency. All rights reserved. </p>
+        <div id="footer-icons" class="lg:ml-[1130px] lg:-mt-[20px] sm:ml-[600px] sm:-mt-[40px]">
+            <a href="#"><i class="fa-brands fa-facebook-f lg:mx-[5px] lg:text-[20px] text-blue-800 hover:text-blue-300 sm:text-[50px] sm:mx-[15px]"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter lg:mx-[5px] lg:text-[20px] text-blue-800 hover:text-blue-300 sm:text-[50px] sm:mx-[15px]"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in lg:mx-[5px] lg:text-[20px] text-blue-800 hover:text-blue-300 sm:text-[50px] sm:mx-[15px]"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram lg:mx-[5px] lg:text-[20px] text-blue-800 hover:text-blue-300 sm:text-[50px] sm:mx-[15px]"></i></a>
+        </div> <!-- /footer-icons -->
+    </footer>
+</body>
+
 </html>
